@@ -27,6 +27,8 @@ option(K4A_BUILD_DOCS "Build K4A doxygen documentation" OFF)
 option(K4A_MTE_VERSION "Skip FW version check" OFF)
 option(K4A_SOURCE_LINK "Enable source linking on MSVC" OFF)
 
+add_compile_options(-Wno-error)
+
 include(GitCommands)
 
 # Set the project version
